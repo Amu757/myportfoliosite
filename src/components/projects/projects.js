@@ -2,8 +2,9 @@ import React from "react";
 import "../homepage.css";
 import Projectbox from "./Projectbox";
 const ecomvid = require("../../projectimages/ecommerce/ecomm_video.mp4");
-const ecomlink = "https://amu757.github.io/EcommerceSite";
+const ecomlink = "https://ecommerce-site-ten-theta.vercel.app/";
 
+const BlogNestlink = "https://blog-nest-blue.vercel.app/"
 
 export default function projects() {
   return (
@@ -13,7 +14,7 @@ export default function projects() {
       </h1>
       <div className="" id="projectbox-container">
         <Projectbox vid={ecomvid} link={ecomlink}/>
-        <Projectbox vid={ecomvid} link={ecomlink}/>
+        <Projectbox vid={ecomvid} link={BlogNestlink}/>
         <Projectbox vid={ecomvid} link={ecomlink}/>
         <Projectbox vid={ecomvid} link={ecomlink}/>
 
